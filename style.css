@@ -1,0 +1,153 @@
+body{background-color:#333;}
+#wrap { padding: 10px 10px 10px 10px; width: 90%; margin:20px auto; background: #fff; text-align:center; border: 1px solid grey; border-radius: 8px; } 
+#header {background: #FE7B09 url(header.jpg) repeat-x; height:198px;}
+#content{float:center; width:100%; margin-top:10px; margin-right:15px; text-align:justify;} 
+#sidebar{float:right; background-color:#00FFFF; width:1px; margin-top:10px; margin-left:5px;}
+#footer {clear:both; text-align: center; border-top: 1px solid #ccc; padding: 10px 5px; }
+#header h1{margin:0px; padding: 10px; color:#FFFF00;}
+#header h2{margin:0px; padding: 0px 10px; color:#FFFF00;}
+#floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+}
+
+.comment{
+   border:thin solid #000000;
+   margin: 10px;
+   padding: 5px;
+ }
+ 
+.kategori{ 
+  background-color:#FFCCCC;
+  padding: 5px;
+  margin-top:10px;
+ }
+ 
+.kategori a {text-decoration: none;}
+.kategori a:visited {text-decoration: none;}
+.kategori a:hover {text-decoration: underline;}  
+
+.animasi
+{background-color:#FFFFFF; border: thin solid #000000;}
+
+#sidebar a {text-decoration: none;}
+#sidebar a:visited {text-decoration: none;}
+#sidebar a:hover {text-decoration: underline;}
+#sidebar ul { padding: 2px 10px 10px 10px;}
+#sidebar li { list-style-type: none;}
+#sidebar h3 { margin-top:0px; margin-bottom: 2px; padding-left: 10px; color: #fff; background-color: #00CCFF; font-size: 1em; height: 24px; line-height: 24px; }
+
+div.paging{
+  padding:2px;
+  margin:2px;
+  text-align:center;
+}
+
+div.paging a{
+  padding:2px 5px 2px 5px;
+  margin-right: 2px;
+  border:1px solid #9aafe5;
+  text-decoration:none;
+  color: #2e6ab1;
+}
+ 
+div.paging a:hover {
+  border: 1px solid #2b66a5;
+  color:#000000;
+  background-color:#ffff80;
+}
+
+div.paging span.current {
+   padding: 2px 5px 2px 5px;
+   margin-right:2px;
+   border: 1px solid #999999;
+   color: #000000;
+   background-color: #999999;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container-output {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-input {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table th {
+  background-color: #000;
+  color: #fff;
+}
+
+input, textarea {
+  width: 94%;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: lightblue;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #000;
+  color: #fff;
+}
+
+.table tbody tr:even {
+  background-color: #ccc;
+}
+.button {
+  background-color: #00FF00;
+  height: 50px;
+}
+
+
