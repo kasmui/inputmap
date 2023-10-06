@@ -1,2 +1,2 @@
 # inputmap
-input data menggunakan ma google
+input data masjid menggunakan map google
